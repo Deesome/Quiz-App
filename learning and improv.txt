@@ -1,0 +1,16 @@
+Learning:
+Understanding asynchronous programming with fetch() and async/await.
+Manipulating the DOM dynamically with JavaScript based on user input.
+Implementing event handling (e.g., form submissions and button clicks).
+Managing application state (e.g., tracking user progress through the quiz).
+Designing responsive layouts using Flexbox and CSS.
+
+Improvement:
+Implementing better error handling with user-friendly messages.
+Organizing code into smaller, reusable functions for better maintainability.
+Enhancing UX with form validation, button states, and immediate feedback.
+Adding visual indicators like a progress bar and improving the timer.
+Using localStorage to persist quiz state across sessions.
+Improving accessibility with aria attributes and semantic HTML.
+Enhancing mobile responsiveness with media queries for smaller screens.
+Creating a more detailed and dynamic scoring system.
