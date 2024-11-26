@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-wrapper{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+form{
+    width: 30%;
+    border: 1px solid black;
+    background-color: #fff100;
+    padding: 28px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 32px;
+    box-shadow: 0 10px 15px rgba(71, 150, 202, 0.1);;
+}
+
+form h1{
+    font-size: 40px;
+   
+}
+form label{
+    font-weight: 600;
+}
+
+form input,
+form select,
+form button{
+    padding: 5px;
+    padding-left: 8px;
+    font-size: 32px;
+    border-radius: 32px;
+    
+
+}
+
+form button {
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #222;
+    color: #fff100;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    color: #222;
+    background-color: #fff100;
+}
+
+.question-page{
+    margin-bottom: 20px;
+    width: 50%;
+    height: 80vh;
+    border: 1px solid black;
+    background-color: #fff100;
+    padding: 28px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 18px;
+    box-shadow: 0 10px 15px rgba(71, 150, 202, 0.1);;
+
+}
+.option{
+   
+    padding: 8px 10px;
+    
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #222;
+    color: #fff100;
+    font-size: 18px;
+    border-radius: 32px;
+    transition: all 0.3s ease;
+
+}
+
+.option:hover{
+    color: #222;
+    background-color: #fff100;
+}
+
+.final-score{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 10px;
+    width: 100%;
+    background-color: #fff100;
+}
+
+.timer{
+    width: 200px;
+    height: 80px;
+    background-color: #222;
+    color: #fff100;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+

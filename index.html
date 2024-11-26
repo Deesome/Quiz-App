@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <form>
+            <h1>Take Your Quiz</h1>
+            <label for="questions">No. of Questions</label>
+            <input value="10" min="10" max="50" type="number" id="questions" required>
+
+            <label for="category-type">Category</label>
+            <select id="category-type">
+                <option value="">Any Category</option>
+
+            </select>
+
+            <label for="select-difficulty">Difficulty Level</label>
+            <select id="select-difficulty">
+                <option value="">Any Difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="difficulty">Difficulty</option>
+            </select>
+
+
+            <label for="select-type">Select Type</label>
+            <select id="select-type">
+                <option value="">Any Type</option>
+                <option value="multiple">Multiple Choice</option>
+                <option value="boolean">True / False</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
